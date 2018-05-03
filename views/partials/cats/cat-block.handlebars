@@ -1,11 +1,11 @@
 <li>
 	{{name}}
-{{#if sleep}}Eat Me!
-{{else}}
-	<button class="btn btn-warning change-sleep" data-id="{{id}}" data-newsleep="{{sleep}}">EAT ME!
-	
-	</button>
-	{{/if}}
 
-	{{!-- <button class="btn btn-warning delete-cat" data-id="{{this.id}}">DELETE!</button> --}}
+
+
+	<button class=" btn btn-warning change-sleep" data-id="{{id}}" data-newsleep="{{sleep}}">
+		{{#if sleep}}EAT ME!{{else}}{{/if}}
+	</button>
+
+
 </li>
