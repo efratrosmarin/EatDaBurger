@@ -1,0 +1,55 @@
+body {
+  background-image: url("https://assets.epicurious.com/photos/556dd2d1d8348b711704fee9/master/pass/56389604_insanity-burger_6x4.jpg");
+  background-repeat: no-repeat;
+  background-color: #cccccc;
+}
+
+.changeMain {font-family: 'Luckiest Guy', cursive;
+  color: #fdc02f;
+  font-size: 80px;
+}
+
+
+.changeTitle {
+  font-family: 'Tajawal', sans-serif;
+  color:#e7e5e1;
+  font-size:24px;
+  margin-left:115px;
+}
+.changeSubmit{
+  font-family: 'Tajawal', sans-serif;
+  color:#e7e5e1;
+  font-size:24px;
+  margin-left:20px;
+
+
+
+}
+ol{
+  color:rgb(214, 214, 213);
+
+}
+
+li {
+  padding: 10px;
+  margin: 10px;
+  background: #8d5329;
+ 
+}
+/* 
+.label {
+  font-weight: bold;
+} */
+
+/* 
+.create-update-form {
+  padding: 5px;
+  margin: 5px;
+  background: aqua;
+} */
+
+.form-group {
+  margin-bottom: 5px;
+}
+
+
