@@ -2,7 +2,7 @@
   <div class="row justify-content-md-center">
 
     <div class="col-md-auto mt-5">
-      <h1 class="changeMain">Eat Da'Burger!</h1>
+      <h1 class="changeMain">Eat Da' Burger!</h1>
     </div>
 
   </div>
@@ -17,7 +17,7 @@
       <h3 class="changeTitle">Good Choice of Burger!</h3>
 
       <ol>
-        {{#each cats}} {{#unless sleepy}} {{> cats/cat-block sleep=true}} {{/unless}} {{/each}}
+        {{#each burgers}} {{#unless devoured}} {{> burgers/burger-block burger=true}} {{/unless}} {{/each}}
       </ol>
 
     </div>
@@ -31,7 +31,7 @@
 
 
         
-        {{#each cats}} {{#if sleepy}} {{> cats/cat-block sleep=false}} {{/if}} {{/each}}
+        {{#each burgers}} {{#if burger}} {{> burgers/burger-block burger=false}} {{/if}} {{/each}}
       </ol>
 
     </div>
